@@ -16,8 +16,10 @@ services:
     environment:
       MYSQL_DATABASE: phishing
       MYSQL_USER: phishing
+      # Para el usuario normal 'phishing':
       MYSQL_PASSWORD: ${DB_PASSWORD:-secret}
-      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD:-root}
+      # Para el usuario 'root':
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:-root}
     ports:
       - "3306:3306"
 
