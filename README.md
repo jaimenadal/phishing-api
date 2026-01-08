@@ -12,7 +12,6 @@ El objetivo es demostrar la capacidad de:
 - Implementar **testing automatizado** con PHPUnit.  
 - Desplegar la aplicación de forma reproducible usando **Docker/Podman**.  
 
-> Este proyecto es un ejemplo profesional pensado para mostrar habilidades backend, ideal para candidatos que provienen de un perfil Linux Sysadmin.
 
 ## 📦 Estructura del proyecto
 
